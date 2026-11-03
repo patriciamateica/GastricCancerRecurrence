@@ -1,0 +1,7 @@
+step,patients,events
+all patients,300,125
+outcome is known,282,125
+no distant metastasis,257,105
+core variables are complete,255,105
+no contradictory outcomes are recorded,252,103
+follow-up time > 0,252,103
