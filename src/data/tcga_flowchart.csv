@@ -1,0 +1,6 @@
+step,patients,events
+All patients,440,142
+Outcome known,437,142
+No distant metastasis (M0),388,126
+Core variables complete,366,125
+Follow-up time > 0,359,125
