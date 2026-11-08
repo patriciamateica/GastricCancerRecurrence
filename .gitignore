@@ -1,0 +1,20 @@
+# ---- Virtual environments ----
+.venv/
+.venv312/
+venv/
+env/
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- PyCharm / IDE settings ----
+.idea/
+.vscode/
+
+# ---- Operating system ----
+.DS_Store
+Thumbs.db
