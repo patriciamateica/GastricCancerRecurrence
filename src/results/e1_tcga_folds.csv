@@ -2,25 +2,125 @@ rep,fold,model,c_tau,ibs,params
 0,0,Stage only,0.6169507575757576,,
 0,0,KM (no predictors),0.5,0.1548996413784731,
 0,0,Cox,0.631155303030303,0.1483440123322457,"{'cox__alphas': [0.01], 'cox__l1_ratio': 0.9}"
-0,0,RSF,0.59375,0.15104416178076616,"{'max_features': 4, 'min_samples_leaf': 40}"
+0,0,RSF,0.5961174242424242,0.1511107309716321,"{'max_features': 4, 'min_samples_leaf': 40}"
 0,0,DeepSurv,0.5629734848484849,0.15197335834187967,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.0001}"
 0,1,Stage only,0.4458653026427962,,
 0,1,KM (no predictors),0.5,0.174963484670889,
 0,1,Cox,0.5289855072463768,0.17756521539411915,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
-0,1,RSF,0.5379369138959932,0.18193366572388817,"{'max_features': 1, 'min_samples_leaf': 5}"
+0,1,RSF,0.5370843989769821,0.18108432038916591,"{'max_features': 1, 'min_samples_leaf': 5}"
 0,1,DeepSurv,0.5481670929241261,0.17432236014064215,"{'dropout': 0.1, 'hidden_layers': 2, 'units': 32, 'weight_decay': 0.01}"
 0,2,Stage only,0.6077898550724637,,
 0,2,KM (no predictors),0.5,0.16259281703153627,
 0,2,Cox,0.6526268115942029,0.15448678086850445,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
-0,2,RSF,0.6603260869565217,0.1527574850178885,"{'max_features': 1, 'min_samples_leaf': 20}"
+0,2,RSF,0.6648550724637681,0.1519404550520421,"{'max_features': 1, 'min_samples_leaf': 20}"
 0,2,DeepSurv,0.6711956521739131,0.14738191964661465,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
 0,3,Stage only,0.5803657362848893,,
 0,3,KM (no predictors),0.5,0.16235667515924138,
 0,3,Cox,0.53609239653513,0.161613186041708,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.9}"
-0,3,RSF,0.4966313763233879,0.16489481532759284,"{'max_features': 2, 'min_samples_leaf': 20}"
+0,3,RSF,0.5024061597690087,0.16454325624512264,"{'max_features': 2, 'min_samples_leaf': 20}"
 0,3,DeepSurv,0.5587102983638114,0.16128231895919218,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
 0,4,Stage only,0.646774193548387,,
 0,4,KM (no predictors),0.5,0.15246346299562508,
 0,4,Cox,0.6580645161290323,0.14653328817585146,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
-0,4,RSF,0.6736559139784947,0.14791652489712473,"{'max_features': 4, 'min_samples_leaf': 40}"
+0,4,RSF,0.6747311827956989,0.14734463716491894,"{'max_features': 4, 'min_samples_leaf': 40}"
 0,4,DeepSurv,0.6806451612903226,0.14984897333298294,"{'dropout': 0.1, 'hidden_layers': 2, 'units': 8, 'weight_decay': 0.01}"
+1,0,Stage only,0.5676758682101514,,
+1,0,KM (no predictors),0.5,0.16917663478970968,
+1,0,Cox,0.6340160284951024,0.16028774621548703,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+1,0,RSF,0.5828138913624221,0.16273372776467007,"{'max_features': 1, 'min_samples_leaf': 20}"
+1,0,DeepSurv,0.5997328584149599,0.1610574306824649,"{'dropout': 0.3, 'hidden_layers': 2, 'units': 8, 'weight_decay': 0.0001}"
+1,1,Stage only,0.5892514395393474,,
+1,1,KM (no predictors),0.5,0.16523325137887993,
+1,1,Cox,0.6866602687140115,0.15428492050006498,"{'cox__alphas': [0.001], 'cox__l1_ratio': 0.1}"
+1,1,RSF,0.6285988483685221,0.15832108551101495,"{'max_features': 1, 'min_samples_leaf': 20}"
+1,1,DeepSurv,0.6780230326295585,0.15447307340792094,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.01}"
+1,2,Stage only,0.650087260034904,,
+1,2,KM (no predictors),0.5,0.16137912261307796,
+1,2,Cox,0.5903141361256544,0.1566823652445443,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+1,2,RSF,0.5510471204188482,0.1615127088399729,"{'max_features': 2, 'min_samples_leaf': 20}"
+1,2,DeepSurv,0.5462478184991274,0.16138749297393346,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.01}"
+1,3,Stage only,0.5557156580211335,,
+1,3,KM (no predictors),0.5,0.1583008842834219,
+1,3,Cox,0.5874159462055716,0.15492380925612426,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+1,3,RSF,0.595581171950048,0.1576934003908277,"{'max_features': 4, 'min_samples_leaf': 20}"
+1,3,DeepSurv,0.5989433237271854,0.15425574633793626,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.01}"
+1,4,Stage only,0.498371335504886,,
+1,4,KM (no predictors),0.5,0.16380728425360908,
+1,4,Cox,0.5510314875135722,0.16411482220506013,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.1}"
+1,4,RSF,0.49728555917481,0.1709088008815708,"{'max_features': 2, 'min_samples_leaf': 20}"
+1,4,DeepSurv,0.5673181324647123,0.16383799732710444,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.0001}"
+2,0,Stage only,0.5461624026696329,,
+2,0,KM (no predictors),0.5,0.1419359259337948,
+2,0,Cox,0.5016685205784205,0.14219507055359037,"{'cox__alphas': [1.0], 'cox__l1_ratio': 0.1}"
+2,0,RSF,0.5061179087875417,0.14633284266478774,"{'max_features': 1, 'min_samples_leaf': 20}"
+2,0,DeepSurv,0.5161290322580645,0.1493442398266393,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
+2,1,Stage only,0.6316725978647687,,
+2,1,KM (no predictors),0.5,0.1751097804950647,
+2,1,Cox,0.630338078291815,0.16970640808723103,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.1}"
+2,1,RSF,0.5889679715302492,0.18870872779549963,"{'max_features': 1, 'min_samples_leaf': 5}"
+2,1,DeepSurv,0.5498220640569395,0.1749423723354126,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.0001}"
+2,2,Stage only,0.5619223659889094,,
+2,2,KM (no predictors),0.5,0.17152710066645407,
+2,2,Cox,0.6474121996303143,0.16315876644747143,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+2,2,RSF,0.6233826247689463,0.16399710188996117,"{'max_features': 1, 'min_samples_leaf': 20}"
+2,2,DeepSurv,0.6543438077634011,0.15776571628501349,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
+2,3,Stage only,0.502921129503408,,
+2,3,KM (no predictors),0.5,0.1462502955275324,
+2,3,Cox,0.555014605647517,0.15224464498815202,"{'cox__alphas': [0.001], 'cox__l1_ratio': 0.1}"
+2,3,RSF,0.5443037974683544,0.14953297491472634,"{'max_features': 4, 'min_samples_leaf': 20}"
+2,3,DeepSurv,0.5628042843232717,0.14563190174595472,"{'dropout': 0.1, 'hidden_layers': 2, 'units': 8, 'weight_decay': 0.01}"
+2,4,Stage only,0.6189024390243902,,
+2,4,KM (no predictors),0.5,0.17344146403109037,
+2,4,Cox,0.7094947735191638,0.16057403602092102,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.1}"
+2,4,RSF,0.6537456445993032,0.16738984709949364,"{'max_features': 1, 'min_samples_leaf': 40}"
+2,4,DeepSurv,0.6794425087108014,0.1624206438495725,"{'dropout': 0.3, 'hidden_layers': 2, 'units': 32, 'weight_decay': 0.0001}"
+3,0,Stage only,0.6868231046931408,,
+3,0,KM (no predictors),0.5,0.16236947688882533,
+3,0,Cox,0.6439530685920578,0.15620263150990846,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+3,0,RSF,0.5288808664259927,0.16153390315524668,"{'max_features': 2, 'min_samples_leaf': 20}"
+3,0,DeepSurv,0.4693140794223827,0.16618344090774229,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
+3,1,Stage only,0.5636792452830188,,
+3,1,KM (no predictors),0.5,0.16544911106404303,
+3,1,Cox,0.6122641509433963,0.16255959161693842,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+3,1,RSF,0.6117924528301887,0.16309518658420966,"{'max_features': 1, 'min_samples_leaf': 5}"
+3,1,DeepSurv,0.605188679245283,0.1623814235750595,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.0001}"
+3,2,Stage only,0.5987770460959548,,
+3,2,KM (no predictors),0.5,0.15969601155888025,
+3,2,Cox,0.6401693320790216,0.154036336688463,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+3,2,RSF,0.5540921919096896,0.17139890666514165,"{'max_features': 1, 'min_samples_leaf': 5}"
+3,2,DeepSurv,0.5653809971777987,0.16229274944945235,"{'dropout': 0.1, 'hidden_layers': 2, 'units': 32, 'weight_decay': 0.0001}"
+3,3,Stage only,0.5717975206611571,,
+3,3,KM (no predictors),0.5,0.1469854276604276,
+3,3,Cox,0.5640495867768595,0.1413300770407587,"{'cox__alphas': [0.01], 'cox__l1_ratio': 0.9}"
+3,3,RSF,0.5707644628099173,0.1429154792000701,"{'max_features': 2, 'min_samples_leaf': 20}"
+3,3,DeepSurv,0.5604338842975206,0.14333127388102906,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.0001}"
+3,4,Stage only,0.4628286491387126,,
+3,4,KM (no predictors),0.5,0.1738659755551137,
+3,4,Cox,0.5684496826835902,0.1744421481733743,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+3,4,RSF,0.5734360834088849,0.174076035692452,"{'max_features': 1, 'min_samples_leaf': 40}"
+3,4,DeepSurv,0.6273798730734361,0.17192979864601604,"{'dropout': 0.3, 'hidden_layers': 2, 'units': 8, 'weight_decay': 0.0001}"
+4,0,Stage only,0.4674657534246575,,
+4,0,KM (no predictors),0.5,0.1713810180723386,
+4,0,Cox,0.4892979452054795,0.1781872408316192,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+4,0,RSF,0.4794520547945205,0.1959114246889954,"{'max_features': 4, 'min_samples_leaf': 20}"
+4,0,DeepSurv,0.5136986301369864,0.17934360080252384,"{'dropout': 0.3, 'hidden_layers': 2, 'units': 32, 'weight_decay': 0.0001}"
+4,1,Stage only,0.6141618497109826,,
+4,1,KM (no predictors),0.5,0.1566816886748677,
+4,1,Cox,0.6526974951830443,0.1429881407708954,"{'cox__alphas': [0.001], 'cox__l1_ratio': 0.9}"
+4,1,RSF,0.621868978805395,0.14380258649931282,"{'max_features': 1, 'min_samples_leaf': 5}"
+4,1,DeepSurv,0.6738921001926782,0.14292550119461114,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.0001}"
+4,2,Stage only,0.5190880169671261,,
+4,2,KM (no predictors),0.5,0.14316278619408698,
+4,2,Cox,0.6203605514316013,0.1399345622404363,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.1}"
+4,2,RSF,0.6463414634146342,0.1385491313607594,"{'max_features': 1, 'min_samples_leaf': 20}"
+4,2,DeepSurv,0.588016967126193,0.1417050926291363,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.0001}"
+4,3,Stage only,0.559436913451512,,
+4,3,KM (no predictors),0.5,0.15059508965381582,
+4,3,Cox,0.5907194994786236,0.14629659619273566,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
+4,3,RSF,0.6016684045881127,0.14484925711643684,"{'max_features': 1, 'min_samples_leaf': 20}"
+4,3,DeepSurv,0.613660062565172,0.1416954592876213,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
+4,4,Stage only,0.6789965986394558,,
+4,4,KM (no predictors),0.5,0.1853916333859388,
+4,4,Cox,0.6777210884353742,0.1691661942442246,"{'cox__alphas': [0.01], 'cox__l1_ratio': 0.5}"
+4,4,RSF,0.6428571428571429,0.1783655126715043,"{'max_features': 1, 'min_samples_leaf': 20}"
+4,4,DeepSurv,0.641156462585034,0.17850791492217788,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.01}"

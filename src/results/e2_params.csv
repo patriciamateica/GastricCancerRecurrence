@@ -1,7 +1,7 @@
 direction,model,params
 ACRG -> TCGA,Cox,"{'cox__alphas': [0.01], 'cox__l1_ratio': 0.9}"
-ACRG -> TCGA,RSF,"{'max_features': 4, 'min_samples_leaf': 40}"
+ACRG -> TCGA,RSF,"{'max_features': 1, 'min_samples_leaf': 40}"
 ACRG -> TCGA,DeepSurv,"{'dropout': 0.1, 'hidden_layers': 1, 'units': 32, 'weight_decay': 0.01}"
 TCGA -> ACRG,Cox,"{'cox__alphas': [0.1], 'cox__l1_ratio': 0.5}"
-TCGA -> ACRG,RSF,"{'max_features': 1, 'min_samples_leaf': 10}"
+TCGA -> ACRG,RSF,"{'max_features': 1, 'min_samples_leaf': 20}"
 TCGA -> ACRG,DeepSurv,"{'dropout': 0.3, 'hidden_layers': 1, 'units': 8, 'weight_decay': 0.0001}"
